@@ -12,10 +12,10 @@ Check if the process is running inside a WSL enviroment in Deno.
 
 ## ⭐ Getting started
 
-Import the `mode` function and use it:
+Import the `isWsl` function and use it:
 
 ```ts
-import isWsl from "https://raw.githubusercontent.com/denorg/is-wsl/master/mod.ts";
+import { isWsl } from "https://raw.githubusercontent.com/denorg/is-wsl/master/mod.ts";
 
 const inWslEnviroment = await isWsl(); // boolean
 ```

@@ -17,7 +17,7 @@ const hasWslEnv = async () => {
   }
 };
 
-export default async function isWsl() {
+export async function isWsl() {
   if (hasWsl === undefined) {
     hasWsl = await hasWslEnv();
 
