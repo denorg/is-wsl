@@ -68,7 +68,7 @@ deno test --allow-read
 
 ## 📄 License
 
-MIT © [Denorg](https://den.org.in)
+MIT © [Denorg](https://den.org.in) 
 
 <p align="center">
   <a href="https://den.org.in">
