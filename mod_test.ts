@@ -1,6 +1,6 @@
 import { assertEquals } from "https://deno.land/std/testing/asserts.ts";
-import { mode } from "./mod.ts";
+import isWsl from "./mod.ts";
 
 Deno.test("test starter function", async (): Promise<void> => {
-  assertEquals(mode(), 0);
+  assertEquals(await isWsl(), true);
 });
