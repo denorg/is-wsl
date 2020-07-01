@@ -1,4 +1,4 @@
-# 🏁 Is Wsl
+# Is Wsl
 
 Check if the process is running inside a WSL enviroment in Deno.
 
