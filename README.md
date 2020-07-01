@@ -1,6 +1,6 @@
 # 🏁 Is Wsl
 
-This is a starter template for building Deno packages in TypeScript, with GitHub Actions-powered CI, tests, CLI, and Semantic Release on GitHub and npm.
+Check if the process is running inside a WSL enviroment in Deno.
 
 [![Deno CI](https://github.com/denorg/is-wsl/workflows/Deno%20CI/badge.svg)](https://github.com/denorg/is-wsl/actions)
 [![GitHub](https://img.shields.io/github/license/denorg/is-wsl)](https://github.com/denorg/is-wsl/blob/master/LICENSE)
