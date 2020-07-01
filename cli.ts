@@ -1,8 +1,11 @@
-import { mode } from "./mod.ts";
+import { isWsl } from "./mod.ts";
 
-// https://deno.land/manual/tools/script_installer
-if (import.meta.main) {
-  for (let arg of Deno.args) {
-    console.log(arg, mode());
+const cli = async () => {
+  if (await isWsl()) {
+    console.log('You are inside WSL environment!');
+  } else {
+    console.log('You are not in WSL environment!');
   }
 }
+
+cli();
